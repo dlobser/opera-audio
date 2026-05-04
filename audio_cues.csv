@@ -1,0 +1,78 @@
+BaseUrl,https://raw.githubusercontent.com/your-org/your-repo/main/audio
+CsvVersion,1
+CueId,Notes,StemFileName,Version,Action,Volume,Speed
+200,Start all loops phase-locked,L_A.wav,1,Loop,0,2
+200,,L_B.wav,1,Loop,0,2
+200,,L_C.wav,1,Loop,0,2
+200,,L_D.wav,1,Loop,0,2
+200,,L_E.wav,1,Loop,0,2
+200,,L_F.wav,1,Loop,0,2
+300,,L_A.wav,1,Hold,99,2
+300,,L_B.wav,1,Hold,99,2
+300,,L_C.wav,1,Hold,99,2
+300,,L_D.wav,1,Hold,99,2
+300,,L_E.wav,1,Hold,99,2
+300,,L_F.wav,1,Hold,99,2
+201,Add B medium fade,L_A.wav,1,Hold,80,4
+201,,L_B.wav,1,Hold,90,4
+202,Swap to C+D,L_A.wav,1,Hold,0,4
+202,,L_B.wav,1,Hold,40,4
+202,,L_C.wav,1,Hold,100,4
+202,,L_D.wav,1,Hold,70,4
+203,Slow morph to E lead,L_B.wav,1,Hold,0,8
+203,,L_C.wav,1,Hold,30,8
+203,,L_D.wav,1,Hold,60,8
+203,,L_E.wav,1,Hold,100,8
+204,Snap solo F,L_C.wav,1,Hold,0,1
+204,,L_D.wav,1,Hold,0,1
+204,,L_E.wav,1,Hold,0,1
+204,,L_F.wav,1,Hold,100,1
+205,Layer A under F,L_A.wav,1,Hold,60,3
+205,,L_F.wav,1,Hold,90,3
+206,Full stack swell,L_A.wav,1,Hold,80,6
+206,,L_B.wav,1,Hold,70,6
+206,,L_C.wav,1,Hold,60,6
+206,,L_D.wav,1,Hold,75,6
+206,,L_E.wav,1,Hold,65,6
+206,,L_F.wav,1,Hold,85,6
+207,Pull back to B+E pad,L_A.wav,1,Hold,0,5
+207,,L_B.wav,1,Hold,100,5
+207,,L_C.wav,1,Hold,0,5
+207,,L_D.wav,1,Hold,0,5
+207,,L_E.wav,1,Hold,80,5
+207,,L_F.wav,1,Hold,0,5
+208,Quick punch C,L_B.wav,1,Hold,40,1
+208,,L_C.wav,1,Hold,100,1
+208,,L_E.wav,1,Hold,30,1
+209,Crossfade to D+A,L_A.wav,1,Hold,90,4
+209,,L_B.wav,1,Hold,0,4
+209,,L_C.wav,1,Hold,0,4
+209,,L_D.wav,1,Hold,80,4
+209,,L_E.wav,1,Hold,0,4
+210,All but D fade in low,L_A.wav,1,Hold,50,6
+210,,L_B.wav,1,Hold,40,6
+210,,L_C.wav,1,Hold,45,6
+210,,L_D.wav,1,Hold,100,6
+210,,L_E.wav,1,Hold,40,6
+210,,L_F.wav,1,Hold,40,6
+211,Slow drift down,L_A.wav,1,Hold,20,8
+211,,L_B.wav,1,Hold,15,8
+211,,L_C.wav,1,Hold,20,8
+211,,L_D.wav,1,Hold,40,8
+211,,L_E.wav,1,Hold,15,8
+211,,L_F.wav,1,Hold,20,8
+212,Solo A return,L_A.wav,1,Hold,100,4
+212,,L_B.wav,1,Hold,0,4
+212,,L_C.wav,1,Hold,0,4
+212,,L_D.wav,1,Hold,0,4
+212,,L_E.wav,1,Hold,0,4
+212,,L_F.wav,1,Hold,0,4
+220,One-shot A,OS_A.wav,1,OneShot,100,0
+221,One-shot B,OS_B.wav,1,OneShot,100,0
+222,One-shot C,OS_C.wav,1,OneShot,100,0
+299,Stop all (5s fade),L_A.wav,1,Stop,,5
+299,,L_B.wav,1,Stop,,5
+299,,L_C.wav,1,Stop,,5
+299,,L_D.wav,1,Stop,,5
+299,,L_E.wav,1,Stop,,5
+299,,L_F.wav,1,Stop,,5
