@@ -1,5 +1,5 @@
 BaseUrl,https://raw.githubusercontent.com/your-org/your-repo/main/audio
-CsvVersion,2
+CsvVersion,3
 CueId,Notes,StemFileName,Version,Action,Volume,Speed
 200,Start all loops phase-locked,L_A.wav,1,Loop,0,2
 VQ101,Unity Event,,,,,
