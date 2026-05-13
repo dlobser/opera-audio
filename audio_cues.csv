@@ -3,6 +3,7 @@ CsvVersion,2
 CueId,Notes,StemFileName,Version,Action,Volume,Speed
 200,Start all loops phase-locked,L_A.wav,1,Loop,0,2
 VQ101,Unity Event,,,,,
+VQ102,Another Unity Event,,,,,
 200,,L_B.wav,1,Loop,0,2
 200,,L_C.wav,1,Loop,0,2
 200,,L_D.wav,1,Loop,0,2
