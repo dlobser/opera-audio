@@ -1,6 +1,7 @@
 BaseUrl,https://raw.githubusercontent.com/your-org/your-repo/main/audio,,,,,
-CsvVersion,5,,,,,
+CsvVersion,6,,,,,
 CueId,Notes,StemFileName,Version,Action,Volume,Speed
+STOP_ALL,Kill everything,,,StopAll,,2
 A_SQ001,Prologue audio only,,,,,
 B_SQ001,Prologue audio only,,,,,
 C_SQ001,Prologue audio only,,,,,
