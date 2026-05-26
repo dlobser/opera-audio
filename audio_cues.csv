@@ -1,5 +1,5 @@
 BaseUrl,https://raw.githubusercontent.com/your-org/your-repo/main/audio,,,,,
-CsvVersion,9,,,,,
+CsvVersion,12,,,,,
 CueId,Notes,StemFileName,Version,Action,Volume,Speed
 STOP_ALL,Kill everything,,,StopAll,,2
 A_SQ001,Prologue audio only,,,,,
@@ -15,12 +15,12 @@ B_SQ201,M1 Play all loops,SQ201_Light_Pop,1,Loop,100,0
 B_SQ201,,SQ201_Light_Bridge,1,Loop,0,0
 B_SQ201,,SQ201_Light_Rock1,1,Loop,0,0
 B_SQ201,,SQ201_Light_Rock2,1,Loop,0,0
-B_VQ201,Née VQ L-01,Hexagonal Light Bloom,,,,
+B_VQ201,M1 { ENABLE } Hexagonal Light Bloom w/ Boombox,,,,,
 C_SQ201,M1 Loop Drone 1,SQ201_Voice_Drone1,1,Loop,100,3
-C_VQ201,Née VQ V-01 Start - Torn Photos,Full screen collage,,Hold,,
-C_VQ201.1,,Fade out collage,,,,
-B_VQ201.2,Née VQ L-02 Butterflies (M5),Blue Butterflies (ADD),,,,
-B_VQ201.3,Née VQ L-03 Bee Swarm (M9),Bee Swarm (ADD),,,,
+C_VQ201,M1 { ENABLE } Collage ,C_VQ201_COLLAGE_PREVIEW_37SEC,,Hold at end,,
+C_VQ201.1,M12 { DISABLE } Collage,C_VQ201_COLLAGE_PREVIEW_37SEC,,2sec fade out,,
+B_VQ201.2,M5 { ENABLE } Blue Butterflies,,,,,
+B_VQ201.3,M9 { ENABLE } Bee Swarm,,,,,
 A_SQ202,Volume down on pop and up on bridge,SQ201_Hustle_Pop,1,Hold,0,0
 A_SQ202,,SQ201_Hustle_Bridge,1,Hold,100,0
 A_SQ202,,SQ201_Hustle_Synth,1,Hold,0,0
@@ -28,11 +28,11 @@ B_SQ202,M13 Volume down on pop up on bridge,SQ201_Light_Pop,1,Hold,0,0
 B_SQ202,,SQ201_Light_Bridge,1,Hold,100,0
 B_SQ202,,SQ201_Light_Rock1,1,Hold,0,0
 B_SQ202,,SQ201_Light_Rock2,1,Hold,0,0
-B_VQ202,VQ L-04 Lilac,Purple Trails,,,,
+B_VQ202,M13 { ENABLE } Lilac Petals / Purple Trails,,,,,
 C_SQ202,M6 Trigger machine and Loop Synth 1,SQ201_Machine,1,OneShot,100,0
 C_SQ202,,SQ201_Voice_Drone1,1,Hold,100,0
 C_SQ202,,SQ202_Voice_Synth1,1,Loop,100,3
-C_VQ202.1,VQ V-02 Birds (M12),Bird Swarm Attack (1),,,,
+C_VQ202.1,M12 { START } Bird Swarm,,,,,
 A_SQ203,Volume up on pop and down on bridge,SQ201_Hustle_Pop,1,Hold,100,0
 A_SQ203,,SQ201_Hustle_Bridge,1,Hold,0,0
 A_SQ203,,SQ201_Hustle_Synth,1,Hold,0,0
@@ -70,11 +70,11 @@ B_SQ206,M51 Volume down on rock1 up on rock2,SQ201_Light_Pop,1,Hold,0,0
 B_SQ206,,SQ201_Light_Bridge,1,Hold,0,0
 B_SQ206,,SQ201_Light_Rock1,1,Hold,0,0
 B_SQ206,,SQ201_Light_Rock2,1,Hold,100,0
-B_VQ206,Née VQ L-05 Leaves,Leaves,,,,
+B_VQ206,M51 { ENABLE } Leaves,,,,,
 C_SQ206,M28 Trigger machine,SQ201_Machine,1,OneShot,100,0
 C_SQ206,,SQ204_Voice_Drone2,1,Hold,100,0
 C_SQ206,,SQ205_Voice_Synth2,1,Hold,100,0
-C_VQ203,Née VQ V-03 Birds settle,Bird settle (1),,,,
+C_VQ203,M14 { ENABLE } Birds land/stare,,,,,
 A_SQ207,Stop synth volume up on drone,SQ201_Hustle_Synth,1,Stop,0,0
 A_SQ207,,SQ201_Hustle_Drone,1,Loop,100,0
 B_SQ207,M57 Volume down on rock2 up on rock1,SQ201_Light_Pop,1,Hold,0,0
@@ -90,7 +90,8 @@ B_SQ208,M63 Stop rock1 volume up on rock2,SQ201_Light_Pop,1,Hold,0,0
 B_SQ208,,SQ201_Light_Bridge,1,Hold,0,0
 B_SQ208,,SQ201_Light_Rock1,1,Stop,0,0
 B_SQ208,,SQ201_Light_Rock2,1,Hold,100,0
-B_VQ208,Née VQ L-06 Snowflakes,Snowflake Transition,,,,
+B_VQ208,"M63 { ENABLE } Snowflakes 
+{ DISABLE } Everything except Boombox",,,,,
 C_SQ208,M35 Trigger machine and Helicopter,SQ201_Machine,1,OneShot,100,0
 C_SQ208,,SQ204_Voice_Drone2,1,Hold,100,0
 C_SQ208,,SQ205_Voice_Synth2,1,Hold,100,0
@@ -117,13 +118,13 @@ B_SQ212,,,,,,
 C_SQ212,M50 Trigger machine and Loop Synth 3,SQ201_Machine,1,OneShot,100,0
 C_SQ212,,SQ211_Voice_Drone3,1,Hold,100,0
 C_SQ212,,SQ212_Voice_Synth3,1,Loop,100,3
-C_VQ212,Née VQ V-04 Birds attack,Bird attack (2),,,,
+C_VQ212,M50 { CALLFUNCTION } Birds Swarm,,,,,
 A_SQ213,,,,,,
 B_SQ213,,,,,,
 C_SQ213,M55 Trigger machine,SQ201_Machine,1,OneShot,100,0
 C_SQ213,,SQ211_Voice_Drone3,1,Hold,100,0
 C_SQ213,,SQ212_Voice_Synth3,1,Hold,100,0
-C_VQ213.1,Née VQ V-05 Birds settle (M60),Bird settle (2),,,,
+C_VQ213.1,M60 { CALLFUNCTION } Birds settle,,,,,
 A_SQ214,,,,,,
 B_SQ214,,,,,,
 C_SQ214,M62 Trigger Helicopter 2,SQ211_Voice_Drone3,1,Hold,100,0
@@ -134,7 +135,7 @@ B_SQ215,,,,,,
 C_SQ215,M63 Trigger machine,SQ201_Machine,1,OneShot,100,0
 C_SQ215,,SQ211_Voice_Drone3,1,Hold,100,0
 C_SQ215,,SQ212_Voice_Synth3,1,Hold,100,0
-C_VQ215,Née VQ V-06 Birds fade,Birds fade or fly off,,,,
+C_VQ215,M70 { CALLFUNCTION } Birds fly away/fade,,,,,
 A_SQ216,,,,,,
 B_SQ216,,,,,,
 C_SQ216,M65 Trigger Helicopter 2,SQ211_Voice_Drone3,1,Hold,100,0
@@ -155,8 +156,7 @@ C_SQ218,,SQ214_Helicopter2,1,OneShot,100,0
 A_SQ301,,,,,,
 B_SQ301,M1 Play track,SQ301_Light_Shadow1,1,OneShot,100,0
 C_SQ301,,,,,,
-B_VQ301,Née VQ S-01 Shadow Data Emergence,"Shadow flickers/glitches into existence
-Semi-transparent, unstable, never fully forms, noise - no figure",,,,
+B_VQ301,"M1 { ENABLE } Shadow flickers/glitches into existence - NO white/red lines/date, only grey particles",,,,,
 A_SQ401,Transition,,,,,
 B_SQ401,Transition,,,,,
 C_SQ401,Transition,,,,,
@@ -166,15 +166,15 @@ B_SQ501.A,Holds form longer - vert lines more ,,,,,
 B_SQ501.B,Disappears ,,,,,
 B_SQ501.C,,Reappears in different position,,,,
 C_SQ501,,,,,,
-B_VQ501,VQ S-02 Persistence and Growth,,,,,
-B_VQ501.1,VQ S-03 Surround and Personalization,,,,,
-B_VQ501.1A,Holds form longer - vert lines more,,,,,
-B_VQ501.1B,Disappears,,,,,
-B_VQ501.1C,Reappears in different position,,,,,
-B_VQ501.1D,Disappears,,,,,
-B_VQ501.1E,,,,,,
-B_VQ501.2,VQ S-04 Musician and Joan Battle,,,,,
-B_VQ501.3,VQ S-05 Surround and Overwhelm,,,,,
+B_VQ501,"MTK { CALLFUNCTION } Shadow grows in amplitude/reactivity - ADD white lines, data, red lines",,,,,
+B_VQ501.1,{ CALLFUNCTION } randomize position,,,,,
+B_VQ501.1A,{ CALLFUNCTION } randomize position,,,,,
+B_VQ501.1B,{ CALLFUNCTION } randomize position,,,,,
+B_VQ501.1C,{ CALLFUNCTION } randomize position,,,,,
+B_VQ501.1D,{ CALLFUNCTION } randomize position,,,,,
+B_VQ501.1E,{ CALLFUNCTION } randomize position,,,,,
+B_VQ501.2,{ CALLFUNCTION } Increase in Glitch/Frequency ,,,,,
+B_VQ501.3,{ CALLFUNCTION } Shadow increases in Z-axis scale,,,,,
 A_SQ601,,,,,,
 B_SQ601,M1 Trigger Communion Audio,SQ601_CommunionAria_Ground,1,OneShot,100,0
 B_SQ601,,SQ601_CommunionAria_Hustle,1,OneShot,100,0
@@ -184,16 +184,15 @@ B_SQ601,,SQ601_CommunionAria_Voice,1,OneShot,100,0
 C_SQ601,,Light Drips Start,,,,
 A_SQ601,,Ripples Start,,,,
 B_SQ601.5,M1 Trigger Communion Stab - Ripples descend,SQ601.5_CommunionStab_Ground,1,OneShot,100,0
-B_SQ601.5,VQ: Add 'Hustle',SQ601.5_CommunionStab_Hustle,1,OneShot,100,0
-B_SQ601.5,VQ: Add  'Voice',SQ601.5_CommunionStab_Light,1,OneShot,100,0
-B_SQ601.5,VQ: Add 'Real',SQ601.5_CommunionStab_Real,1,OneShot,100,0
-B_SQ601.5,VQ: Add  'Ground',SQ601.5_CommunionStab_Voice,1,OneShot,100,0
-C_SQ601.5,VQ: Add  'Light',,,,,
-B_VQ602,VQ C-01 Communion,Communion Full Arrival,,,,
-B_VQ601.5,,,,,,
+B_SQ601.5,{ ENABLE } VQ: Add 'Hustle' Figure,SQ601.5_CommunionStab_Hustle,1,OneShot,100,0
+B_SQ601.5,{ ENABLE } VQ: Add  'Light' Figure,SQ601.5_CommunionStab_Light,1,OneShot,100,0
+B_SQ601.5,{ ENABLE } VQ: Add 'Real' Figure,SQ601.5_CommunionStab_Real,1,OneShot,100,0
+B_SQ601.5,{ ENABLE } VQ: Add  'Voice' Figure,SQ601.5_CommunionStab_Voice,1,OneShot,100,0
+C_SQ601.5,{ ENABLE } VQ: Add  'Ground' Figure,,,,,
+B_VQ602,{ CALLFUNCTION } Full Communion Rotation,,,,,
 B_SQ701,Loop Communion Audio Chord 1,SQ701_How_Long_Chord_1_Light,1,Loop,100,2
 C_SQ701,,,,,,
-B_VQ701,VQ C-02 Harmonics and Emission,,,,,
+B_VQ701,{ CALLFUNCTION } Increase in reactivity/frequency,,,,,
 A_SQ702,,,,,,
 B_SQ702,Cross-fade between chords,SQ701_How_Long_Chord_1_Light,1,Hold,0,2
 B_SQ702,,SQ702_How_Long_Chord_2_Light,1,Loop,100,2
@@ -276,11 +275,11 @@ C_SQ721,,,,,,
 A_SQ801,,,,,,
 B_SQ801,M1 Trigger Communion Audio,SQ801_CommunionAria2,1,OneShot,100,0
 C_SQ801,,,,,,
-B_VQ801,VQ CR-01 Crown Formation and Emission,,,,,
+B_VQ801,{ ENABLE } Crown Splash and Rise ,,,,,
 A_SQ901,,,,,,
 B_SQ901,M1 Trigger Loop,SQ901_Dear_Life,1,Loop,100,3
 C_SQ901,,,,,,
-B_VQ901,VQ CR-3 Acceptance of Crown,,,,,
+B_VQ901,{ CALLFUNCTION } Crown lowers for performer,,,,,
 A_SQ902,,,,,,
 B_SQ902,Fade and stop loop,SQ901_Dear_Life,1,Stop,0,5
 C_SQ902,,,,,,
