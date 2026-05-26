@@ -1,5 +1,5 @@
 BaseUrl,https://raw.githubusercontent.com/your-org/your-repo/main/audio,,,,,
-CsvVersion,12,,,,,
+CsvVersion,13,,,,,
 CueId,Notes,StemFileName,Version,Action,Volume,Speed
 STOP_ALL,Kill everything,,,StopAll,,2
 A_SQ001,Prologue audio only,,,,,
@@ -162,35 +162,34 @@ B_SQ401,Transition,,,,,
 C_SQ401,Transition,,,,,
 A_SQ501,,,,,,
 B_SQ501,M1 Trigger Shadow Fight,SQ501_Light_Shadow2,1,Loop,100,0
-B_VQ501,M1 Trigger Shadow Fight,,,,,
-B_VQ501.1,Holds form longer - vert lines more ,,,,,
-B_VQ501.2,Disappears ,,,,,
-B_VQ501.3,,Reappears in different position,,,,
+B_VQ501,{ CALLFUNCTION } Shadow all particle layers,,,,,
+B_VQ502,{ CALLFUNCTION } Effect mod (placeholder),,,,,
+B_VQ503,{ CALLFUNCTION } Effect mod (placeholder),,,,,
+B_VQ504,{ CALLFUNCTION } Effect mod (placeholder - GO NUTS),,,,,
 C_SQ501,,,,,,
-B_VQ501,"MTK { CALLFUNCTION } Shadow grows in amplitude/reactivity - ADD white lines, data, red lines",,,,,
+B_VQ501,"MTK { CALLFUNCTION } Shadow grows in amplitude/reactivity - ADD white lines - data - red lines",,,,,
 B_VQ501.1,{ CALLFUNCTION } randomize position,,,,,
 B_VQ501.11,{ CALLFUNCTION } randomize position,,,,,
 B_VQ501.12,{ CALLFUNCTION } randomize position,,,,,
 B_VQ501.13,{ CALLFUNCTION } randomize position,,,,,
 B_VQ501.14,{ CALLFUNCTION } randomize position,,,,,
 B_VQ501.15,{ CALLFUNCTION } randomize position,,,,,
-B_VQ501.2,{ CALLFUNCTION } Increase in Glitch/Frequency ,,,,,
-B_VQ501.3,{ CALLFUNCTION } Shadow increases in Z-axis scale,,,,,
 A_SQ601,,,,,,
 B_SQ601,M1 Trigger Communion Audio,SQ601_CommunionAria_Ground,1,OneShot,100,0
 B_SQ601,,SQ601_CommunionAria_Hustle,1,OneShot,100,0
 B_SQ601,,SQ601_CommunionAria_Light,1,OneShot,100,0
 B_SQ601,,SQ601_CommunionAria_Real,1,OneShot,100,0
 B_SQ601,,SQ601_CommunionAria_Voice,1,OneShot,100,0
-C_SQ601,,Light Drips Start,,,,
-A_SQ601,,Ripples Start,,,,
+B_VQ601,{ ENABLE } Communion Scene,,,,,
 B_SQ601.5,M1 Trigger Communion Stab - Ripples descend,SQ601.5_CommunionStab_Ground,1,OneShot,100,0
 B_SQ601.5,{ ENABLE } VQ: Add 'Hustle' Figure,SQ601.5_CommunionStab_Hustle,1,OneShot,100,0
 B_SQ601.5,{ ENABLE } VQ: Add  'Light' Figure,SQ601.5_CommunionStab_Light,1,OneShot,100,0
 B_SQ601.5,{ ENABLE } VQ: Add 'Real' Figure,SQ601.5_CommunionStab_Real,1,OneShot,100,0
 B_SQ601.5,{ ENABLE } VQ: Add  'Voice' Figure,SQ601.5_CommunionStab_Voice,1,OneShot,100,0
 C_SQ601.5,{ ENABLE } VQ: Add  'Ground' Figure,,,,,
+B_SQ601.5,{ ENABLE } VQ: Enable Communion Reveal,,,,,
 B_VQ602,{ CALLFUNCTION } Full Communion Rotation,,,,,
+B_VQ602,,,,,,
 B_SQ701,Loop Communion Audio Chord 1,SQ701_How_Long_Chord_1_Light,1,Loop,100,2
 C_SQ701,,,,,,
 B_VQ701,{ CALLFUNCTION } Increase in reactivity/frequency,,,,,
