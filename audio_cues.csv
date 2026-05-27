@@ -156,7 +156,7 @@ C_SQ218,,SQ214_Helicopter2,1,OneShot,100,0
 A_SQ301,,,,,,
 B_SQ301,M1 Play track,SQ301_Light_Shadow1,1,OneShot,100,0
 C_SQ301,,,,,,
-B_VQ301,"M1 { ENABLE } Shadow flickers/glitches into existence - NO white/red lines/date, only grey particles",,,,,
+B_VQ301,M1 { ENABLE } Shadow {DISABLE} bloom-butterflies-bees-lilacs-snowflakes-joanofthelight,,,,,
 A_SQ401,Transition,,,,,
 B_SQ401,Transition,,,,,
 C_SQ401,Transition,,,,,
